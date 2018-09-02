@@ -1,0 +1,66 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "ramda"
+  ],
+  "extends": ["eslint-config-with-prettier", "plugin:ramda/recommended"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "import/no-extraneous-dependencies": 0,
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error", "info"]
+      }
+    ],
+    "camelcase": 0,
+    "no-param-reassign": 0,
+    "react/no-did-mount-set-state": 0,
+    "react/button-has-type": 0,
+    "ramda/always-simplification": "error",
+    "ramda/any-pass-simplification": "error",
+    "ramda/both-simplification": "error",
+    "ramda/complement-simplification": "error",
+    "ramda/compose-pipe-style": "error",
+    "ramda/compose-simplification": "error",
+    "ramda/cond-simplification": "error",
+    "ramda/either-simplification": "error",
+    "ramda/eq-by-simplification": "error",
+    "ramda/filter-simplification": "error",
+    "ramda/if-else-simplification": "error",
+    "ramda/map-simplification": "error",
+    "ramda/merge-simplification": "error",
+    "ramda/no-redundant-and": "error",
+    "ramda/no-redundant-not": "error",
+    "ramda/no-redundant-or": "error",
+    "ramda/pipe-simplification": "error",
+    "ramda/prefer-both-either": "error",
+    "ramda/prefer-complement": "error",
+    "ramda/prefer-ramda-boolean": "error",
+    "ramda/prop-satisfies-simplification": "error",
+    "ramda/reduce-simplification": "error",
+    "ramda/reject-simplification": "error",
+    "ramda/set-simplification": "error",
+    "ramda/unless-simplification": "error",
+    "ramda/when-simplification": "error",
+    "no-bitwise": ["error", { "int32Hint": true }],
+    "import/no-cycle": "off"
+  }
+}

@@ -1,0 +1,41 @@
+.header {
+  margin-bottom: 108px;
+  border-bottom:  1px solid rgba(black, .1);
+}
+.inner {
+  padding: 0 55px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  & > div:first-child {
+    max-width: 130px;
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
+
+.menu {
+  display: flex;
+  margin-left: 30px;
+}
+
+.item {
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+.link {
+  color: rgba(0,0,0,.4);
+  font-size: 14px;
+  font-weight: 800;
+}
+.active {
+  color: #000;
+}
+
+.user {
+  font-size: 18px;
+  color: rgba(0,0,0,.4);
+}
