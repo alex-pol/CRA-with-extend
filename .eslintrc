@@ -30,6 +30,13 @@
         "allow": ["warn", "error", "info"]
       }
     ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "all",
+        "bracketSpacing": true
+      }
+    ],
     "camelcase": 0,
     "no-param-reassign": 0,
     "react/no-did-mount-set-state": 0,
@@ -60,7 +67,7 @@
     "ramda/set-simplification": "error",
     "ramda/unless-simplification": "error",
     "ramda/when-simplification": "error",
-    "no-bitwise": ["error", { "int32Hint": true }],
+    "no-bitwise": ["error", { "allow": ["~"] }],
     "import/no-cycle": "off"
   }
 }

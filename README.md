@@ -1,5 +1,14 @@
 # App
 
+## What’s Included?
+* Eslint with AirBnB config
+* Prettier
+* App rewired
+* CSS Modules
+* React Router
+* Redux
+* Redux Auth wrap
+
 ## Install deps
 
 ### `yarn`
