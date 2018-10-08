@@ -3,13 +3,16 @@
   "plugins": [
     "ramda"
   ],
-  "extends": ["eslint-config-with-prettier", "plugin:ramda/recommended"],
+  "extends": [
+    ".eslintPrettier.yml",
+    "plugin:ramda/recommended"
+  ],
   "env": {
     "browser": true,
     "es6": true
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 7,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
